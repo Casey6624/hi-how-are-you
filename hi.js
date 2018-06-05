@@ -12,5 +12,4 @@ for (imgElt of imgs){
   let file = "img/" + filenames[r];
   let url = chrome.extension.getURL(file);
   imgElt.src = url;
-  console.log(url);
 }
